@@ -23,6 +23,7 @@ jobs:
           test -s '직무별_면접_대비.html'
           test -s '면접_딥다이브_학습.html'
           test -s 'CS_기초부터_총정리.html'
+          test -s '프로젝트_기술_가이드.html'
       - uses: actions/configure-pages@v5
         if: ${{ !github.event.repository.private }}
       - uses: actions/upload-pages-artifact@v4

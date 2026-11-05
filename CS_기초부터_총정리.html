@@ -92,7 +92,7 @@ function home(){
   <h3>기초 개념부터 시작한다면</h3>
   <p>1–3장에서 컴퓨터와 Python을, 7–11장에서 운영체제·Linux·네트워크를 공부하세요. 위 실습을 하다가 필요한 개념을 목차나 검색에서 찾아도 됩니다.</p>
   <button data-chapter="1">1장부터 시작</button>
-  <p class="muted"><a href="./직무별_면접_대비.html">공통·직무별 면접 질문</a></p>
+  <p class="muted"><a href="./직무별_면접_대비.html">공통·직무별 면접 질문</a> · <a href="./프로젝트_기술_가이드.html">이력서·포트폴리오 기술 가이드</a></p>
  </article>`;
 }
 function glossary(q=''){const list=book.flatMap(c=>c.lessons).filter(l=>!q||[l.title,l.definition].join(' ').toLocaleLowerCase().includes(q));return `<article class="sheet"><div class="overline">GLOSSARY</div><h2>용어 사전 · ${list.length}개</h2><p class="muted">짧은 첫 정의입니다. 자세한 원리와 예시는 제목을 눌러 해당 장에서 읽으세요.</p><div class="glossary">${list.map(l=>`<div class="term"><strong>${esc(l.title)}</strong><span class="chip">${l.chapter}장</span><p>${esc(l.definition)}</p><button data-goto="${l.id}">원리·예시 보기 →</button></div>`).join('')}</div></article>`}
