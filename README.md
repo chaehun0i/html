@@ -2,9 +2,9 @@
 
 [학습 홈 열기](https://chaehun0i.github.io/html/)
 
-- [공통 면접](./직무별_면접_대비.html#common) 8문항
-- [AI Agent·RAG](./직무별_면접_대비.html#agent), [AI Automation·AX](./직무별_면접_대비.html#ax), [Python Backend](./직무별_면접_대비.html#backend) 각 10문항
-- [에이클라우드 면접](./면접_딥다이브_학습.html) 52문항
+- [공통 면접](./직무별_면접_대비.html#common) 7문항
+- [AI Agent·RAG](./직무별_면접_대비.html#agent), [AI Automation·AX](./직무별_면접_대비.html#ax), [Python Backend](./직무별_면접_대비.html#backend) 8·7·8문항
+- [에이클라우드 면접](./면접_딥다이브_학습.html) 29문항
 - [개발자가 쓰는 CS](./CS_기초부터_총정리.html) 첫 학습 36단원, 실무 확장 17단원, 직무별 심화·참고를 포함한 전체 144단원
 
 휴대폰에서는 질문을 한 문항씩 보고 하단 버튼으로 이동합니다. 질문별 핵심 단어로 먼저 답한 뒤 예시를 펼칠 수 있습니다. 노트북에서는 목차와 본문을 나란히 볼 수 있습니다. 학습 상태는 브라우저별로 저장됩니다.
