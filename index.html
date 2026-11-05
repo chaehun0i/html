@@ -1,1 +1,41 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102b3f"><title>면접 준비 · 학습 자료</title><style>*{box-sizing:border-box}body{margin:0;min-height:100vh;background:#f3f7f7;color:#193348;font:17px/1.75 system-ui,-apple-system,"Malgun Gothic",sans-serif}main{max-width:710px;margin:auto;padding:clamp(24px,6vw,64px) 18px}h1{font-size:clamp(28px,5vw,42px);line-height:1.35;letter-spacing:-.04em}p{color:#526b79}.links{display:grid;gap:13px;margin-top:28px}a{display:block;padding:22px;background:#fff;border:1px solid #d9e5ea;border-radius:14px;color:#136e85;text-decoration:none;font-weight:750}a:hover,a:focus-visible{border-color:#136e85;background:#eaf5f6}small{display:block;color:#526b79;font-weight:400;margin-top:4px}footer{font-size:13px;margin-top:30px}.links h2{font-size:20px;margin:0}</style></head><body><main><p>면접 준비 자료</p><h1>이동 중에도 읽기 편하게 정리했습니다.</h1><p>공통 면접과 직무별 질문을 연습하고, 막히는 개념은 CS 교재에서 찾아보세요.</p><section class="links"><h2>공통 면접</h2><a href="./직무별_면접_대비.html#common">회사 공통 질문 · 8문항<small>자기소개, 직무 선택, 본인 기여, 협업과 문제 해결</small></a></section><section class="links"><h2>직무별 면접</h2><a href="./직무별_면접_대비.html#agent">AI Agent·RAG · 10문항<small>LangGraph · MCP · 검색·생성 평가</small></a><a href="./직무별_면접_대비.html#ax">AI Automation·AX · 10문항<small>Python · Tool Calling · 실행 통제와 검증</small></a><a href="./직무별_면접_대비.html#backend">Python Backend · 10문항<small>FastAPI · PostgreSQL · Docker</small></a></section><section class="links"><h2>회사별 면접</h2><a href="./면접_딥다이브_학습.html">에이클라우드 전용 · 52문항<small>지원동기, 프로젝트 질문, 클라우드·AI 컨설팅 상황</small></a></section><section class="links"><h2>개발 학습</h2><a href="./CS_기초부터_총정리.html">개발자 CS · 24장<small>API·SQL·권한·테스트·배포와 파일 처리 실습</small></a></section><footer>학습 문서는 인터넷 연결 없이도 HTML(에이치티엠엘) 파일로 열 수 있습니다. 복습 표시는 현재 브라우저에 저장됩니다.</footer></main></body></html>
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#122c35">
+<title>개발 면접과 CS 학습</title>
+<style>
+:root{--ink:#17313b;--muted:#4b636c;--paper:#fff;--line:#d7e4e2;--accent:#176451}
+*{box-sizing:border-box}
+body{margin:0;background:#f1f6f4;color:var(--ink);font:16px/1.6 system-ui,"Malgun Gothic",sans-serif}
+main{width:min(100%,1050px);margin:auto;padding:clamp(12px,4vw,42px) max(13px,env(safe-area-inset-right)) calc(30px + env(safe-area-inset-bottom)) max(13px,env(safe-area-inset-left))}
+.hero{padding:clamp(19px,4vw,38px);border-radius:17px;background:#122c35;color:#fff}
+.hero p{margin:4px 0;color:#d9e7e7}
+.hero .kicker{font-size:13px;color:#a6ddcc;font-weight:750}
+h1{margin:5px 0 9px;font-size:clamp(29px,5vw,45px);line-height:1.15;letter-spacing:-.04em}
+h2{margin:0 0 8px;font-size:18px}
+section{margin-top:22px;min-width:0}
+.group{display:grid;gap:8px}
+a{display:block;padding:13px 15px;min-height:60px;border-radius:11px;background:var(--paper);border:1px solid var(--line);color:var(--ink);text-decoration:none}
+a:hover{border-color:#6b9f90}a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+a strong{display:block;line-height:1.4}a small{display:block;margin-top:4px;color:var(--muted);font-size:14px}
+a .count{color:var(--accent);font-size:12px;font-weight:750}
+footer{margin:26px 0 0;color:var(--muted);font-size:13px}
+@media(min-width:780px){.roles{grid-template-columns:repeat(3,minmax(0,1fr))}.extras{display:grid;grid-template-columns:1fr 1fr;gap:12px}}
+</style>
+</head>
+<body><main>
+<header class="hero"><p class="kicker">개발자 학습 자료</p><h1>오늘 연습할 항목을 선택하세요</h1><p>공통 질문으로 말하기를 연습하거나, 직무와 프로젝트에 맞는 질문을 바로 열 수 있습니다.</p></header>
+<section><h2>공통 면접</h2><a href="./직무별_면접_대비.html#common"><span class="count">8문항</span><strong>자기소개와 경험 설명</strong><small>직무 선택 · 본인 기여 · 실패와 협업</small></a></section>
+<section><h2>직무별 면접</h2><div class="group roles">
+<a href="./직무별_면접_대비.html#agent"><span class="count">10문항</span><strong>AI Agent·RAG</strong><small>LangGraph · MCP · 검색과 평가</small></a>
+<a href="./직무별_면접_대비.html#ax"><span class="count">10문항</span><strong>AI Automation·AX</strong><small>업무 자동화 · 검증 · 재시도</small></a>
+<a href="./직무별_면접_대비.html#backend"><span class="count">10문항</span><strong>Python Backend</strong><small>FastAPI · PostgreSQL · Docker</small></a>
+</div></section>
+<div class="extras">
+<section><h2>회사별 면접</h2><a href="./면접_딥다이브_학습.html"><span class="count">52문항</span><strong>에이클라우드 전용</strong><small>지원동기 · 클라우드 운영 · AI 컨설팅</small></a></section>
+<section><h2>개발 학습</h2><a href="./CS_기초부터_총정리.html"><span class="count">24장 · 144단원</span><strong>개발자가 쓰는 CS</strong><small>요청 흐름 · 데이터 정합성 · 장애 진단 · 배포</small></a></section>
+</div>
+<footer>복습 표시와 학습 완료 표시는 현재 브라우저에 저장됩니다.</footer>
+</main></body></html>

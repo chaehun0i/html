@@ -20,6 +20,7 @@ jobs:
       - name: Check site files
         run: |
           test -s index.html
+          test -s '직무별_면접_대비.html'
           test -s '면접_딥다이브_학습.html'
           test -s 'CS_기초부터_총정리.html'
       - uses: actions/configure-pages@v5
